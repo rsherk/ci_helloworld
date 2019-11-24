@@ -28,11 +28,15 @@
 int
 MAIN(int argc, char *argv[])
 {
+    int numbers[5];
+    
     (void) argc;
     (void) argv;
 
     producer p{};
     consumer c{&p};
+
+    numbers[5] = 0;
 
     return 0;
 }
