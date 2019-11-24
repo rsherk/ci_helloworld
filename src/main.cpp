@@ -29,6 +29,7 @@ int
 MAIN(int argc, char *argv[])
 {
     int numbers[5];
+    int morenumbers[5];
     
     (void) argc;
     (void) argv;
@@ -37,6 +38,7 @@ MAIN(int argc, char *argv[])
     consumer c{&p};
 
     numbers[5] = 0;
-
+    morenumbers[5] = 0;
+    
     return 0;
 }
